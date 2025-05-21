@@ -40,7 +40,7 @@ export default function ChatWidget() {
             >
               <XMarkIcon className="w-6 h-6 text-gray-500" />
             </button>
-            <div className="w-full h-full bg-white rounded-xl shadow-2xl flex flex-col overflow-hidden">
+            <div className="w-full h-full bg-transparent rounded-xl shadow-2xl flex flex-col overflow-hidden">
               <ChatSidebar />
             </div>
           </div>
