@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: "export",
   assetPrefix: "/chatbot",
 };
 
