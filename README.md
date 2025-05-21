@@ -1,22 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Helpdesk Chatmate
+
+An intelligent helpdesk assistant that helps users with company policies, processes, and micro-courses.
+
+## Features
+
+- 🤖 AI-powered chat interface
+- 📚 Micro-courses management
+- 📝 Company policies and processes knowledge base
+- 💬 Real-time chat support
+- 🎓 Learning progress tracking
+- 🔍 Smart search functionality
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- OpenAI API (for chat functionality)
+- MongoDB (for data storage)
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
